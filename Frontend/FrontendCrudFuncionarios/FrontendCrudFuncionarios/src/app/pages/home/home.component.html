@@ -1,0 +1,17 @@
+<div class="container">
+    <app-header></app-header>
+
+    <div class="container mt-5">
+        <div style="align-items: center; display: flex; justify-content: space-between;">
+            <input class="form-control mr-sm-2" style="width: 30%;" type="search" placeholder="Qual funcionário deseja buscar?">
+            
+            <button class="btn btn-success" (click)="adicionarFuncionario()">Adicionar Funcionário</button>     
+        </div>
+        <div class="dropdown-divider"></div>
+        
+        <app-funcionarios
+        [funcionarios]="funcionarios"
+        [funcionariosGeral]="funcionariosGeral">
+        </app-funcionarios>
+    </div>
+</div>

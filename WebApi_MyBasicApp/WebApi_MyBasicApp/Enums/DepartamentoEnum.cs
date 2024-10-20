@@ -1,5 +1,8 @@
-﻿namespace WebApi_MyBasicApp.Enums
+﻿using System.Text.Json.Serialization;
+
+namespace WebApi_MyBasicApp.Enums
 {
+    [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum DepartamentoEnum
     {
         RH,

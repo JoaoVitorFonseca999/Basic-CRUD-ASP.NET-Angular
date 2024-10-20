@@ -1,0 +1,92 @@
+<div>
+    <table class="thead-dark table table-hover table-bordered mt-5 table-striped">
+        <thead class="table-dark">
+            <tr>
+                <!-- <th>Id</th> -->
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>departamento</th>
+                <th>turno</th>
+                <th>status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(funcionarios.length > 0){
+                @for(funcionario of funcionarios; track $index){
+                    <tr>
+                        <!-- <td>{{funcionario.id}}</td> -->
+                        <td>{{funcionario.nome}}</td>
+                        <td>{{funcionario.sobrenome}}</td>
+                        <td>{{funcionario.departamento}}</td>
+                        <td>{{funcionario.turno}}</td>
+                        <td>
+                            @if(funcionario.ativo){
+                                <span class="badge badge-pill badge-success" style="background-color: green;">Ativo</span>
+                            }
+                            @else{
+                                <span class="badge badge-pill badge-success" style="background-color: orange;">Inativo</span>
+                            }   
+
+                        </td>
+                        <td style="width: 18%;">
+                            
+                            <button type="button" class="btn btn-outline-success btn-sm" >Visualizar</button>
+                            <button type="button" class="btn btn-outline-info btn-sm"  (click)="openModalEditarFuncionario()" >Edit</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm" >Delete</button>
+                            
+                        </td>
+                        
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+<!-- Modal Editar Funcionario -->
+<div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="exampleModalLabel" style="background-color: rgba(0, 0, 0, 0.5);" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModalEditarFuncionario()"></button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+            (click)="closeModalEditarFuncionario()">
+                Fechar
+            </button>
+            <button type="button" class="btn btn-primary" (click)="closeModalEditarFuncionario()">
+                Salvar
+            </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Editar Funcionario -->
+<!-- <div class="modal fade" id="modalDelete" tabindex="-1" aria-labelledby="exampleModalLabel" style="background-color: rgba(0, 0, 0, 0.5);" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModalEditarFuncionario()"></button>
+            </div>
+            <div class="modal-body">
+            Tem certeza que deseja excluir permanentemente o funcionário?
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+            (click)="closeModalEditarFuncionario()">
+                Fechar
+            </button>
+            <button type="button" class="btn btn-primary" (click)="closeModalEditarFuncionario()">
+                Salvar
+            </button>
+            </div>
+        </div>
+    </div>
+</div> -->

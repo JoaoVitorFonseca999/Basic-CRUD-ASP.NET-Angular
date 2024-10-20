@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\service\\funcionarioservice\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\service\\funcionarioservice\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\webapi_mybasicapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\webapi_mybasicapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\enums\\departamentoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\enums\\departamentoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\models\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\models\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\enums\\turnoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\enums\\turnoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\migrations\\20241018025019_first-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\migrations\\20241018025019_first-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|c:\\basic-crud-asp.net-angular\\basic-crud-asp.net-angular\\webapi_mybasicapp\\webapi_mybasicapp\\service\\funcionarioservice\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC879DCB-8909-427F-A3F6-AF9ED3B122EA}|WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj|solutionrelative:webapi_mybasicapp\\service\\funcionarioservice\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 2237,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs*",
+              "RelativeToolTip": "WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:22:15.432Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -110,89 +120,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "WebApi_MyBasicApp\\Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TurnoEnum.cs",
+              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Enums\\TurnoEnum.cs",
+              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Enums\\TurnoEnum.cs",
+              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Enums\\TurnoEnum.cs",
+              "RelativeToolTip": "WebApi_MyBasicApp\\Enums\\TurnoEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:22:15.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T12:28:56.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20241018025019_first-migration.cs",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Migrations\\20241018025019_first-migration.cs",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Migrations\\20241018025019_first-migration.cs",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Migrations\\20241018025019_first-migration.cs",
-              "RelativeToolTip": "WebApi_MyBasicApp\\Migrations\\20241018025019_first-migration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAABYAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DepartamentoEnum.cs",
+              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Enums\\DepartamentoEnum.cs",
+              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Enums\\DepartamentoEnum.cs",
+              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Enums\\DepartamentoEnum.cs",
+              "RelativeToolTip": "WebApi_MyBasicApp\\Enums\\DepartamentoEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T02:50:19.3Z"
+              "WhenOpened": "2024-10-19T12:28:24.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Program.cs",
               "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Program.cs",
               "RelativeToolTip": "WebApi_MyBasicApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T02:45:06.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\appsettings.json",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\appsettings.json",
-              "RelativeToolTip": "WebApi_MyBasicApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-18T02:21:27.065Z",
+              "WhenOpened": "2024-10-19T11:33:07.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\DataContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\DataContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\DataContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebApi_MyBasicApp\\DataContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioService.cs",
+              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Service\\FuncionarioService\\FuncionarioService.cs",
+              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Service\\FuncionarioService\\FuncionarioService.cs",
+              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Service\\FuncionarioService\\FuncionarioService.cs",
+              "RelativeToolTip": "WebApi_MyBasicApp\\Service\\FuncionarioService\\FuncionarioService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwBMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T02:17:46.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebApi_MyBasicApp.csproj",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj",
-              "RelativeToolTip": "WebApi_MyBasicApp\\WebApi_MyBasicApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-18T02:12:28.265Z"
+              "WhenOpened": "2024-10-18T18:26:35.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FuncionarioModel.cs",
-              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Models\\FuncionarioModel.cs",
-              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Models\\FuncionarioModel.cs",
-              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Models\\FuncionarioModel.cs",
-              "RelativeToolTip": "WebApi_MyBasicApp\\Models\\FuncionarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Title": "IFuncionarioInterface.cs",
+              "DocumentMoniker": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Service\\FuncionarioService\\IFuncionarioInterface.cs",
+              "RelativeDocumentMoniker": "WebApi_MyBasicApp\\Service\\FuncionarioService\\IFuncionarioInterface.cs",
+              "ToolTip": "C:\\Basic-CRUD-ASP.NET-Angular\\Basic-CRUD-ASP.NET-Angular\\WebApi_MyBasicApp\\WebApi_MyBasicApp\\Service\\FuncionarioService\\IFuncionarioInterface.cs",
+              "RelativeToolTip": "WebApi_MyBasicApp\\Service\\FuncionarioService\\IFuncionarioInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T01:49:03.151Z"
+              "WhenOpened": "2024-10-18T18:26:40.684Z"
             }
           ]
         }
