@@ -10,3 +10,11 @@ td{
     text-align: center;
     align-content: center;
 }
+.fundo-cinza {
+    background-color: #ffffff; /* Cor cinza */
+    color: #000000; /* Cor branca */
+}
+.fundo-branco {
+    background-color: #ffffff; /* Cor cinza */
+}
+  

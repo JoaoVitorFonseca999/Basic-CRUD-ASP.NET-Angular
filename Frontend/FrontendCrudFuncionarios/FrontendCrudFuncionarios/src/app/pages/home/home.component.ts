@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FuncionariosComponent } from '../../components/funcionarios/funcionarios.component';
 import { HeaderComponent } from '../../components/header/header.component';
 import { RouterOutlet } from '@angular/router';
@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit {
   
   funcionarios : Funcionario[] = [];
   funcionariosGeral : Funcionario[] = [];
+  @ViewChild(FuncionariosComponent) funcionariosComponent!: FuncionariosComponent;
 
 
   constructor(private funcionarioservice: FuncionarioService) { }
@@ -32,7 +33,16 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  adicionarFuncionario(): void {
+  searchFuncionario( event: Event): void {
+    const  target = event.target as HTMLInputElement;
+    const value = target.value.toLocaleLowerCase();
 
+
+    this.funcionarios = this.funcionariosGeral.filter((funcionario) => funcionario.nome.toLocaleLowerCase().includes(value));
   }
+    
+  abrirModalAdicionarFuncionario(): void {
+    this.funcionariosComponent.openModalAdicionarFuncionario();
+  }
+
 }

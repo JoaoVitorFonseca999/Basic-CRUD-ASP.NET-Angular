@@ -3,9 +3,11 @@
 
     <div class="container mt-5">
         <div style="align-items: center; display: flex; justify-content: space-between;">
-            <input class="form-control mr-sm-2" style="width: 30%;" type="search" placeholder="Qual funcionário deseja buscar?">
+            <input class="form-control mr-sm-2" style="width: 30%;" type="search" placeholder="Qual funcionário deseja buscar?"
+            (input)="searchFuncionario($event)">
             
-            <button class="btn btn-success" (click)="adicionarFuncionario()">Adicionar Funcionário</button>     
+            
+            <button class="btn btn-success" (click)="abrirModalAdicionarFuncionario()">Adicionar Funcionário</button>     
         </div>
         <div class="dropdown-divider"></div>
         
