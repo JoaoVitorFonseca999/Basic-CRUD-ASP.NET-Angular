@@ -109,6 +109,23 @@ export class FuncionariosComponent {
     }
   }
 
+  openModalVisualizarFuncionario(): void {
+    const modal = document.getElementById('modalVisualizar');
+    if(modal){
+      modal.style.display = 'block';
+      modal.style.opacity = '1';
+    }
+  }
+  closeModalVisualizarFuncionario(): void {
+    const modal = document.getElementById('modalVisualizar');
+    if(modal){
+      modal.style.display = 'none';
+      modal.style.opacity = '0';  
+    }
+
+    this.funcionarioParaAdicionar=this.novoFuncionarioVazio();
+  }
+
   ObterCorPorTurno(turno: any): any {
     switch (turno) {
       case "Tarde":
@@ -124,13 +141,37 @@ export class FuncionariosComponent {
   obterLabelPorTurno(turno: any): string {
     switch (turno) {
       case "Tarde":
+      case 0:
         return 'Tarde';    // Verde para Manhã
       case "Manha":
+      case 1:
         return 'Manhã';   // Laranja para Tarde
       case "Noite":
+      case 2:
         return 'Noite';     // Azul para Noite
       default:
         return '-';     // Cinza se nenhum turno corresponder
+    }
+  }
+  obterLabelPorDepartamento(departamento: any): string {
+    switch (departamento) {
+      case "RH":
+      case 0:
+        return 'RH';    // Verde para Manhã
+      case "Financeiro":
+      case 1:
+        return 'Financeiro';   // Laranja para Tarde
+      case "Compras":
+      case 2:
+        return 'Compras';     // Azul para Noite
+      case "Atendimento":
+      case 3:
+        return 'Atendimento';     // Azul para Noite
+      case "Zeladoria":
+      case 4:
+        return 'Zeladoria';     // Azul para Noite
+      default:
+        return '-';     // Cinza se nenhum turno corres
     }
   }
 

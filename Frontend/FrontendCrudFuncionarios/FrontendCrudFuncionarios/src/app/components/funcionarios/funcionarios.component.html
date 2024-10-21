@@ -37,7 +37,7 @@
                     </td>
                     <td style="width: 18%;"  [ngClass]="{'fundo-branco': !funcionario.ativo}">
 
-                        <button type="button" class="btn btn-outline-success btn-sm" >
+                        <button type="button" class="btn btn-outline-success btn-sm" (click)="funcionarioParaAdicionar = funcionario;openModalVisualizarFuncionario();">
                             Visualizar
                         </button>
                         <button type="button" class="btn btn-outline-info btn-sm"
@@ -262,7 +262,87 @@
         </div>
     </div>
 </div>
+<!-- modal Visualizar funcionário -->
+<div class="modal fade" id="modalVisualizar" tabindex="-1" aria-labelledby="exampleModalLabel"
+    style="background-color: rgba(0, 0, 0, 0.5);" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Dados do funcionário</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    (click)="closeModalVisualizarFuncionario()"></button>
+            </div>
+            <div class="modal-body">
 
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nome">
+                                Nome
+                            </label>
+                            <input type="text" class="form-control" id="nomeParaVisualizar" name="nomeParaVisualizar" value="{{funcionarioParaAdicionar.nome}}"
+                             placeholder="Nome"  [disabled]="true">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text"  [disabled]="true" class="form-control" id="sobrenome" value = "{{funcionarioParaAdicionar.sobrenome}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <label for="departamentoAdd">Departamento<br></label>
+                
+                        <input type="text" class="form-control" id="departamentoParaVisualizar" name="departamentoParaVisualizar" value="{{obterLabelPorDepartamento(funcionarioParaAdicionar.departamento)}}"
+                             placeholder="departamento"  [disabled]="true">
+                    </div>
+
+                    <div class="col-md-6"
+                        style="align-self: center;display: flex;justify-content: space-around;margin-top:20px;">
+                        Status: 
+                        @if(funcionarioParaAdicionar.ativo){
+                        <span class="badge badge-pill badge-success" style="background-color: green;">Ativo</span>
+                        }
+                        @else{
+                        <span class="badge badge-pill badge-success" style="background-color: yellow;color: black;   ">Inativo</span>
+                        }
+                        
+
+                    </div>
+                </div>
+                
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="departamentoAdd">Turno<br></label>
+                
+                        <input type="text" class="form-control" id="turnoParaVisualizar" name="turnoParaVisualizar" value="{{obterLabelPorTurno(funcionarioParaAdicionar.turno)}}"
+                             placeholder="turno"  [disabled]="true">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                    (click)="closeModalVisualizarFuncionario();">
+                    Fechar
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Modal modalExcluir Funcionario -->
 <div class="modal fade" id="modalExcluir" tabindex="-1" aria-labelledby="exampleModalLabel" style="background-color: rgba(0, 0, 0, 0.5);" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  modal-sm">

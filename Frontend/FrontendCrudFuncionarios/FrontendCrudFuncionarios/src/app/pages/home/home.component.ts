@@ -38,7 +38,10 @@ export class HomeComponent implements OnInit {
     const value = target.value.toLocaleLowerCase();
 
 
-    this.funcionarios = this.funcionariosGeral.filter((funcionario) => funcionario.nome.toLocaleLowerCase().includes(value));
+    this.funcionarios = this.funcionariosGeral.filter(
+      (funcionario) => funcionario.nome.toLocaleLowerCase().includes(value) || funcionario.sobrenome.toLocaleLowerCase().includes(value)
+    
+    );
   }
     
   abrirModalAdicionarFuncionario(): void {
